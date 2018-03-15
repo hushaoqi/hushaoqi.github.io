@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hello,Welcome!</title>
-  
+  <icon>https://www.gravatar.com/avatar/033c2158dc051be65d658a2f776c4029</icon>
   <subtitle>My Blog</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/public/atom.xml" rel="self"/>
   
-  <link href="http://hushaoqi.cn/"/>
+  <link href="http://hushaoqi.cn/public/"/>
   <updated>2018-03-13T07:54:55.127Z</updated>
-  <id>http://hushaoqi.cn/</id>
+  <id>http://hushaoqi.cn/public/</id>
   
   <author>
     <name>HuShaoqi</name>
-    
+    <email>1941017133@qq.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://hushaoqi.cn/2018/03/13/hello-world/"/>
-    <id>http://hushaoqi.cn/2018/03/13/hello-world/</id>
+    <link href="http://hushaoqi.cn/public/2018/03/13/hello-world/"/>
+    <id>http://hushaoqi.cn/public/2018/03/13/hello-world/</id>
     <published>2018-03-13T07:54:55.127Z</published>
     <updated>2018-03-13T07:54:55.127Z</updated>
     
