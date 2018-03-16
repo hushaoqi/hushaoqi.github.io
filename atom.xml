@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hushaoqi.cn/"/>
-  <updated>2018-03-13T07:54:55.127Z</updated>
+  <updated>2018-03-15T14:38:33.458Z</updated>
   <id>http://hushaoqi.cn/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My First Blog</title>
+    <link href="http://hushaoqi.cn/2018/03/15/My-First-Blog/"/>
+    <id>http://hushaoqi.cn/2018/03/15/My-First-Blog/</id>
+    <published>2018-03-15T12:42:36.000Z</published>
+    <updated>2018-03-15T14:38:33.458Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="小白copy大牛—-GitHub-hexo建立个人博客"><a href="#小白copy大牛—-GitHub-hexo建立个人博客" class="headerlink" title="小白copy大牛—-GitHub+hexo建立个人博客"></a>小白copy大牛—-GitHub+hexo建立个人博客</h1><h2 id="起源自：小白的博客"><a href="#起源自：小白的博客" class="headerlink" title="起源自：小白的博客"></a>起源自：<a href="https://zhuanlan.zhihu.com/p/32957389" target="_blank" rel="noopener">小白的博客</a></h2><p>###1. 搭博客<br>按照知乎上这位同为小白的博客，一步一步认认真真的操作，一直可以做到主题的clone，博主选的主题是archer，当然，我不太喜欢这个主题，本人选的<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">yilia</a>，简约风格，而且大家可以看看<a href="http://litten.me/" target="_blank" rel="noopener">他的博客</a>，优化的特别好！</p><p>###2.配置<br>之前比较傻，只知道在网上搜hexo主题怎么配置，搜到的有些和选的这个主题的结构设置不一样，所以就不能照搬照抄了，如果你是大牛的话，那就随你咯！反正我喜欢照葫芦画瓢，直接去主题博主的GitHub仓库里“拿”。<img src="https://i.imgur.com/9EW36Ex.png" alt="主题配置截图"></p><pre><code># Headermenu:  主页: /  随笔: /tags/随笔/# SubNavsubnav:  github: &quot;#&quot;  weibo: &quot;#&quot;  rss: &quot;#&quot;  zhihu: &quot;#&quot;  #qq: &quot;#&quot;  #weixin: &quot;#&quot;  #jianshu: &quot;#&quot;  #douban: &quot;#&quot;  #segmentfault: &quot;#&quot;  #bilibili: &quot;#&quot;  #acfun: &quot;#&quot;  #mail: &quot;mailto:litten225@qq.com&quot;  #facebook: &quot;#&quot;  #google: &quot;#&quot;  #twitter: &quot;#&quot;  #linkedin: &quot;#&quot;rss: /atom.xml# 是否需要修改 root 路径# 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，# 请将您的 url 设为 http://yoursite.com/blog 并把 root 设为 /blog/。root: /# Content# 文章太长，截断按钮文字excerpt_link: more# 文章卡片右下角常驻链接，不需要请设置为falseshow_all_link: &apos;展开全文&apos;# 数学公式mathjax: false# 是否在新窗口打开链接open_in_new: false# 打赏# 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏reward_type: 2# 打赏wordingreward_wording: &apos;谢谢你请我吃糖果&apos;# 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpgalipay: # 微信二维码图片地址weixin: # 目录# 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录toc: 1# 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为falsetoc_hide_index: true# 目录为空时的提示toc_empty_wording: &apos;目录，不存在的…&apos;# 是否有快速回到顶部的按钮top: true# Miscellaneousbaidu_analytics: &apos;&apos;google_analytics: &apos;&apos;favicon: /favicon.png#你的头像urlavatar:#是否开启分享share_jia: true#评论：1、多说；2、网易云跟帖；3、畅言；4、Disqus；5、Gitment#不需要使用某项，直接设置值为false，或注释掉#具体请参考wiki：https://github.com/litten/hexo-theme-yilia/wiki/#1、多说duoshuo: false#2、网易云跟帖wangyiyun: false#3、畅言changyan_appid: falsechangyan_conf: false#4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的disqus: false#5、Gitmentgitment_owner: false      #你的 GitHub IDgitment_repo: &apos;&apos;          #存储评论的 repogitment_oauth:  client_id: &apos;&apos;           #client ID  client_secret: &apos;&apos;       #client secret# 样式定制 - 一般不需要修改，除非有很强的定制欲望…style:  # 头像上面的背景颜色  header: &apos;#4d4d4d&apos;  # 右滑板块背景  slider: &apos;linear-gradient(200deg,#a0cfe4,#e8c37e)&apos;# slider的设置slider:  # 是否默认展开tags板块  showTags: false# 智能菜单# 如不需要，将该对应项置为false# 比如#smart_menu:#  friends: falsesmart_menu:  innerArchive: &apos;所有文章&apos;  friends: &apos;友链&apos;  aboutme: &apos;关于我&apos;friends:  友情链接1: http://localhost:4000/  友情链接2: http://localhost:4000/  友情链接3: http://localhost:4000/  友情链接4: http://localhost:4000/  友情链接5: http://localhost:4000/  友情链接6: http://localhost:4000/aboutme: 很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</code></pre><ul><li>SubNav的设置：  设置显示在左侧栏的图标链接，有GitHub，微博，知乎等等，名字前面的“#”代表注释，即不显示，想要显示并设置，就把“#“删掉即可。冒号后面有个空格，不要删，紧接着在引号中的#替换为对应的网址。</li><li>打赏二维码设置： \themes\yilia\source\img  文件夹中添加你的支付宝二维表图片，命名为alipay.jpg主题配置文件中 alipay: /img/alipay.jpg</li><li>头像的设置：  \themes\yilia\source\img  文件夹中添加你的头像图片，命名为head.jpg主题配置文件中 avatar: /img/avatar.jpg <br><br>问题出现了,这样设置，头像显示不出来，经百度，参照解决办法<a href="https://github.com/litten/hexo-theme-yilia/issues/288" target="_blank" rel="noopener">头像无法正常显示</a></li></ul><p>##<a href="https://www.appinn.com/markdown/" target="_blank" rel="noopener">markdown语法大全</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;小白copy大牛—-GitHub-hexo建立个人博客&quot;&gt;&lt;a href=&quot;#小白copy大牛—-GitHub-hexo建立个人博客&quot; class=&quot;headerlink&quot; title=&quot;小白copy大牛—-GitHub+hexo建立个人博客&quot;&gt;&lt;/a&gt;小白cop
+      
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="http://hushaoqi.cn/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
