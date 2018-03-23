@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hushaoqi.cn/"/>
-  <updated>2018-03-16T08:28:11.951Z</updated>
+  <updated>2018-03-23T11:50:41.214Z</updated>
   <id>http://hushaoqi.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>FPGA-1st-section</title>
+    <link href="http://hushaoqi.cn/2018/03/23/FPGA_1stSection/"/>
+    <id>http://hushaoqi.cn/2018/03/23/FPGA_1stSection/</id>
+    <published>2018-03-23T08:43:33.000Z</published>
+    <updated>2018-03-23T11:50:41.214Z</updated>
+    
+    <content type="html"><![CDATA[<p>###FPGA设计基础###<br>主要的三类电子器件：存储器、处理器和逻辑器件；</p><p>　　存储器：保存随机信息（电子数据表或数据库的内容）；</p><p>　　处理器：执行软件指令，以便完成各种任务（运行数据处理程序或视频游戏）；</p><p>　　逻辑器件：可以提供特殊功能（器件之间的通信和系统必须执行的其他所有功能）；</p><p>逻辑器件分为两类：</p><p>　　1、固定的或定制的；通常称为专用芯片（ASIC）为满足特定用途而设计的芯片。固化逻辑功能、成本低、可靠性高。</p><p>　　2、可编程的或可变的；典型的FPGA，可解决电子系统小型化、低功耗、高可靠性，基于FPGA的嵌入式系统（SoPC）技术正在成熟，FPGA芯片向着高性能、高密度、低压和低功耗的方向发展。基于IP库的设计方法逐渐替代传统的基于HDL的代码设计方法。针对特定结构的FPGA芯片可采用FPGA动态可重构技术，在一定的控制逻辑的驱动下，对芯片的全部或部分逻辑资源实现高速的功能变换，从而实现硬件的时分复用，节省逻辑资源。适用于：①最新通信系统　 ②重构计算机；</p><p>FPGA应用领域：①数据采集和接口逻辑领域：数据采集；逻辑接口；电平接口　②高性能数字信号处理领域。</p><p>###FPGA的工艺结构###</p><p>如图：<img src="https://i.imgur.com/Iu7MqUX.jpg" alt="FPGA生产工艺及典型结构"></p><p>###SRAM结构：###<br>优点：可以用较低的成本来实现较高的密度和较高的性能；</p><p>缺点：掉电后SRAM会失去所有的配置。重新加载需要外部器件实现，不仅增加了整个系统的成本，而且引入了不稳定的因素。</p><p>###反熔丝结构：###<br>　　该结构的FPGA只能编程一次，编程之后就和ASIC一样成为了固定逻辑器件。优点：虽然失去了反复可编程的灵活性，但大大提高了系统的稳定性。适用于环境严苛的场合。</p><p>###flash结构：###<br>flash具备了反复擦写和掉电后内容非易失性，兼具上面的灵活性和可靠性。</p><p>###工程项目中FPGA芯片选择策略和原则###<br>　1、尽量选择成熟的产品系列<br><br>　2、尽量选择兼容性好的封装<br><br>　3、尽量选择同一个公司的产品<br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;###FPGA设计基础###&lt;br&gt;主要的三类电子器件：存储器、处理器和逻辑器件；&lt;/p&gt;
+&lt;p&gt;　　存储器：保存随机信息（电子数据表或数据库的内容）；&lt;/p&gt;
+&lt;p&gt;　　处理器：执行软件指令，以便完成各种任务（运行数据处理程序或视频游戏）；&lt;/p&gt;
+&lt;p&gt;　　逻辑器件：可
+      
+    
+    </summary>
+    
+    
+      <category term="FPGA" scheme="http://hushaoqi.cn/tags/FPGA/"/>
+    
+  </entry>
   
   <entry>
     <title>My First Blog</title>
