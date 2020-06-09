@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Chechinah&#39;s Blog</title>
+  <title>Shechinah&#39;s Blog</title>
   
   <subtitle>敲键盘的钢琴师</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://hushaoqi.cn/</id>
   
   <author>
-    <name>Chechinah</name>
+    <name>Shechinah</name>
     
   </author>
   
